@@ -8,3 +8,9 @@ draw = function() {
     ellipse(mouseX, mouseY, 35, 35);
 };
 ---------------------------------------------------------------------------
+MAKE SURE TO ALWAYS WORK AS FRACTIONAL SO WHEN ONE SIZE CHANGES ECERYTHING ELSE CHANGES IN RELATIVITY
+
+var faceSize = 661;
+var mouthSize = 1/2 * faceSize;
+var eyeSize = 2/15 * faceSize; // 40/300ths -> 4/30 -> 2/15
+---------------------------------------------------------------------------
