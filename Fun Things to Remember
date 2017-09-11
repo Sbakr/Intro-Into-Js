@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+THIS FILL (MOUSE ALLOWS THE COLOUR SPECTRUM TO CHANGE AS THE MOUSE MOVES
+
+noStroke();
+
+draw = function() {
+    fill(mouseY, mouseX, 49);
+    ellipse(mouseX, mouseY, 35, 35);
+};
+---------------------------------------------------------------------------
