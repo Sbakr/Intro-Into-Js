@@ -14,3 +14,10 @@ var faceSize = 661;
 var mouthSize = 1/2 * faceSize;
 var eyeSize = 2/15 * faceSize; // 40/300ths -> 4/30 -> 2/15
 ---------------------------------------------------------------------------
+HOW TO REMEMBER THE FRACTIONS
+If you look at the ellipse statements for the right eye
+you can see that the x coordinate (first parameter) is 240. 
+Originally, before you played around with it, the x of the face started off at 200 and faceSize started off at 160.
+So, to keep the original offset between the right eye and the center of the face,
+the x coordinate of the right eye should be (240-200)/160 or 1/4 of the size of the face to the right of x.
+---------------------------------------------------------------------------
