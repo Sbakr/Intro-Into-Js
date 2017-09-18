@@ -21,3 +21,7 @@ Originally, before you played around with it, the x of the face started off at 2
 So, to keep the original offset between the right eye and the center of the face,
 the x coordinate of the right eye should be (240-200)/160 or 1/4 of the size of the face to the right of x.
 ---------------------------------------------------------------------------
+YOU CAN ADD CUTE LITTLE PICTURES
+
+image(getImage("cute/GrassBlock"), 79 ,274 ,75,50);
+---------------------------------------------------------------------------
